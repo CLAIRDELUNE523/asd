@@ -162,6 +162,7 @@ header {
 }
 .ads-section img {
   width: 7rem;
+  border-radius: 100%;
 }
 
 .ads-area {
