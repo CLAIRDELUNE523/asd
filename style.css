@@ -16,15 +16,17 @@ body {
 body ul {
   display: flex;
   align-items: center;
-  display: flex;
+  margin: 0 auto;
   justify-content: center;
+  min-width: 991px;
+  max-width: 1323px;
   gap: 2rem;
 }
 body ul li a {
   color: grey;
   font-family: "Montserrat";
   font-weight: 500;
-  font-size: 0.7rem;
+  font-size: 11px;
 }
 body ul li a:hover {
   color: rgb(185, 185, 185);
@@ -38,18 +40,95 @@ header {
 }
 
 .inner-header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
   min-width: 991px;
   max-width: 1323px;
   width: 96%;
   color: white;
+  gap: 30px;
 }
 
-.logo-area {
-  display: flex;
-  align-items: center;
-  width: 260px;
+.left {
+  flex: 1;
 }
-.logo-area img {
+.left .logo-area {
+  width: 230px;
+}
+.left .logo-area img {
   vertical-align: bottom;
+}
+
+.right {
+  flex: 1;
+}
+.right .cta-area {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 1rem;
+}
+.right .cta-area .apply-button:hover {
+  color: rgb(211, 211, 211);
+  transition: 0.2s all ease-in-out;
+}
+.right .cta-area .ask-button {
+  border: 1px solid rgb(44, 44, 44);
+  padding: 0.6rem;
+  border-radius: 1rem;
+  transition: 0.3s ease-in all;
+}
+.right .cta-area .ask-button:hover {
+  color: black;
+  border: 1px solid white;
+  background: rgb(231, 231, 231);
+  transition: 0.3s ease-in all;
+}
+.right .cta-area a {
+  color: grey;
+  font-family: "Noto Sans JP";
+  font-weight: 700;
+  transition: 0.2s all ease-in-out;
+}
+
+.search-section {
+  width: 90%;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+}
+.search-section .search-box {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 40rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  padding: 0 2rem;
+}
+
+.search-box:focus {
+  outline: rgb(49, 49, 49) 2px solid;
+}
+
+.navbar {
+  height: 30px;
+  background-color: rgb(15, 15, 15);
+  border-bottom: 1px solid rgb(27, 27, 27);
+}
+.navbar ul {
+  justify-content: left;
+}
+.navbar a {
+  color: white;
+  font-family: "Noto Sans JP";
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0.7rem 2rem;
 }/*# sourceMappingURL=style.css.map */
