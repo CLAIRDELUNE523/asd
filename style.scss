@@ -5,6 +5,49 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+img{
+    width: 100%;
+}
 body{
-    color: red;
+    background-color: black;
+
+    ul{
+        display: flex;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+        li a{
+            color: grey;
+            font-family: "Montserrat";
+            font-weight: 500;
+            font-size: 0.7rem;
+        }
+    }
+    ul li a:hover{
+        color: rgb(185, 185, 185);
+        transition: .2s ease-in-out;
+    }
+}
+header{
+    background-color: rgb(15, 15, 15);
+    height: 70px;
+    width: 100%;
+}
+.inner-header{
+    margin: 0 auto;
+    min-width: 991px;
+    max-width: 1323px;
+    width: 96%;
+    color: white;
+}
+.logo-area{
+    display: flex;
+    align-items: center;
+    width: 260px;
+    
+    img{
+        vertical-align: bottom;
+    }
 }
