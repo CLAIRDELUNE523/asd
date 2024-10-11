@@ -171,6 +171,7 @@ header{
     }
 }
 .ads-area{
+    font-size: .8rem;
     display: flex;
     background: rgb(19, 19, 19);
     padding: .8rem 2rem;
@@ -181,5 +182,8 @@ header{
 
     a{
         color: #ff9000;
+    }
+    a:hover{
+        text-decoration: underline;
     }
 }
