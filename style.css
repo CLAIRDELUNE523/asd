@@ -13,7 +13,7 @@ img {
 body {
   background-color: black;
 }
-body ul {
+body .top ul {
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -22,13 +22,13 @@ body ul {
   max-width: 1323px;
   gap: 2rem;
 }
-body ul li a {
+body .top ul li a {
   color: grey;
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 11px;
 }
-body ul li a:hover {
+body .top ul li a:hover {
   color: rgb(185, 185, 185);
   transition: 0.2s ease-in-out;
 }
@@ -118,17 +118,61 @@ header {
 }
 
 .navbar {
-  height: 30px;
+  height: 40px;
   background-color: rgb(15, 15, 15);
   border-bottom: 1px solid rgb(27, 27, 27);
 }
 .navbar ul {
-  justify-content: left;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100%;
+  gap: 0;
+  display: flex;
+  min-width: 991px;
+  max-width: 1323px;
+}
+.navbar ul li {
+  text-align: center;
+  width: 15%;
+  padding: 0.6rem 2rem;
+  cursor: pointer;
+}
+.navbar ul li:hover {
+  border-bottom: 1px solid grey;
+  background-color: rgb(27, 27, 27);
 }
 .navbar a {
+  display: block;
   color: white;
   font-family: "Noto Sans JP";
   font-weight: 600;
   font-size: 12px;
-  padding: 0.7rem 2rem;
+}
+
+.ads-section {
+  margin: 2rem auto;
+  min-width: 991px;
+  max-width: 1323px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.ads-section img {
+  width: 7rem;
+}
+
+.ads-area {
+  display: flex;
+  background: rgb(19, 19, 19);
+  padding: 0.8rem 2rem;
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  border-radius: 0.5rem;
+  color: rgb(224, 224, 224);
+}
+.ads-area a {
+  color: #ff9000;
 }/*# sourceMappingURL=style.css.map */
