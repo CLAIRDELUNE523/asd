@@ -201,3 +201,81 @@ header{
         text-decoration: underline;
     }
 }
+
+
+.fa-solid{
+    font-size: 2rem;
+}
+.arrow{
+    max-width: 700px;
+    margin: 3rem auto 0px auto;
+}
+.arrow-section{
+    gap: 1rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.mid-page ul{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+}
+
+.mid-page ul li{
+    height: 3.2rem;
+    width: 3.2rem;
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.3rem;
+    border-radius: .3rem;
+    
+
+    a{
+        color: #c6c6c6;
+    }
+}
+
+.mid-page ul li:hover{
+    background-color: #272727;
+}
+
+.left-arrow{
+    cursor: pointer;
+    background: rgb(14, 14, 14);
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.2rem;
+    border-radius: .3rem;
+
+    .fa-solid{
+        color: rgb(46, 46, 46);
+    }
+}
+
+.right-arrow{
+    cursor: pointer;
+    background:#ff9000;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.2rem;
+    border-radius: .3rem;
+    transition: .2s all ease-in-out;
+
+    .fa-solid{
+        color: black;
+    }
+}
+.right-arrow:hover{
+    background: #ffa024;
+    transition: .2s all ease-in-out;
+}
